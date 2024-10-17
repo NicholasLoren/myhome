@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartment Features Form</title>
+</head>
+<body>
+    <h1>Apartment Features Form</h1>
+    <form action="submit.php" method="post">
+        <label for="apartment_code">Apartment Code:</label>
+        <input type="text" id="apartment_code" name="apartment_code" required><br><br>
+
+        <input type="checkbox" id="refrigerator" name="features[]" value="refrigerator">
+        <label for="refrigerator">Refrigerator</label><br>
+
+        <input type="checkbox" id="gym" name="features[]" value="gym">
+        <label for="gym">Gym</label><br>
+
+        <input type="checkbox" id="washer" name="features[]" value="washer">
+        <label for="washer">Washer</label><br>
+
+        <input type="checkbox" id="barbeque" name="features[]" value="barbeque">
+        <label for="barbeque">Barbeque</label><br>
+
+        <input type="checkbox" id="hangers" name="features[]" value="hangers">
+        <label for="hangers">Hangers</label><br>
+
+        <input type="checkbox" id="microwave" name="features[]" value="microwave">
+        <label for="microwave">Microwave</label><br>
+
+        <input type="checkbox" id="sauna" name="features[]" value="sauna">
+        <label for="sauna">Sauna</label><br>
+
+        <input type="checkbox" id="dryer" name="features[]" value="dryer">
+        <label for="dryer">Dryer</label><br>
+
+        <input type="checkbox" id="laundry" name="features[]" value="laundry">
+        <label for="laundry">Laundry</label><br>
+
+        <input type="checkbox" id="shower" name="features[]" value="shower">
+        <label for="shower">Shower</label><br>
+
+        <input type="checkbox" id="internet" name="features[]" value="internet">
+        <label for="internet">Internet</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
